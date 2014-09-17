@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sweetbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<!--.ui-page .ui-content .ui-listview .ui-li {text-align: right;} -->
+</head>
+<body>
+    <div data-role="page"  data-theme="d" >
+ 
+        <div data-role="header">
+			<a href="#" class="ui-btn ui-icon-back ui-btn-icon-notext" data-icon="back" >Home</a>
+            <h1>Sweetbox</h1>
+			<a href="#" data-role="button" data-icon="gear" data-mini="false">Settings</a>
+        </div><!-- /header -->
+ 
+        <div data-role="content" >
+            <ul 
+				data-role="listview" data-inset="true" data-filter="false"   >
+				
+				<li><a href="#">Row 1</a></li>
+				<li><a href="#">Row 2</a></li>
+				<li><a href="#">Row 3</a></li>
+				<li><a href="#">Row 4</a></li>
+				<li><a href="#">Row 5</a></li>
+				<li><a href="#">Row 6</a></li>
+				
+				<!-- Text -->
+				<li>
+					<div class="ui-grid-a" style="height:50px">
+						<div class="ui-block-a"><strong>A: I'm Block A</strong></div>
+						<div class="ui-block-b "><span style="float:right"><strong>A:I'm Block B</strong></span></div>
+					</div><!-- /grid-a -->
+				</li>
+				
+				<!-- Button C -->
+				<li>
+					<div class="ui-grid-c" style="height:50px" >
+						<div class="ui-block-a">
+							<strong>C:I'm Block A</strong>
+						</div>
+						<div class="ui-block-b"></div>
+						<div class="ui-block-c"></div>
+						<div class="ui-block-d"><span style="float:right">
+							<a href="#" data-role="button" data-icon="star">Livingroom</a>
+						</span></div>
+					</div><!-- /grid-c -->
+				</li>
+				
+				<!-- Button A -->
+				<li>
+					<div class="ui-grid-a" style="height:50px">
+						<div class="ui-block-a">
+							<strong>C:I'm Block A</strong>
+						</div>
+						<div class="ui-block-b"><span style="float:right">
+							<a href="#" data-role="button" data-icon="star">Livingroom</a>
+						</span></div>
+					</div><!-- /grid-c -->
+				</li>
+				
+				<!-- Flip flop A -->
+				<li>
+					<div class="ui-grid-a" style="height:50px">
+						<div class="ui-block-a">
+							<strong>A:I'm Block A</strong>
+						</div>
+						<div class="ui-block-b"><span style="float:right">
+							<select name="flip-1" id="flip-1" data-role="slider">
+								<option value="off">Off</option>
+								<option value="on">On</option>
+							</select> 
+						</span></div>
+					</div><!-- /grid-c -->
+				</li>
+				
+				<!-- Flip flop B -->
+				<li>
+					<div class="ui-grid-b" style="height:50px">
+						<div class="ui-block-a">
+							<strong>B:I'm Block A</strong>
+						</div>
+						<div class="ui-block-b"></div>
+						<div class="ui-block-c"><span style="float:right">
+							<select name="flip-1" id="flip-1" data-role="slider">
+								<option value="off">Off</option>
+								<option value="on">On</option>
+							</select> 
+						</span></div>
+					</div><!-- /grid-c -->
+				</li>
+				
+				<!-- Flip flop C  C -->
+				<li>
+					<div class="ui-grid-c" style="height:50px">
+						<div class="ui-block-a">
+							<strong>C:I'm Block A</strong>
+						</div>
+						<div class="ui-block-b"></div>
+						<div class="ui-block-c"></div>
+						<div class="ui-block-d"><span style="float:right">
+							<select name="flip-1" id="flip-1" data-role="slider">
+								<option value="off">Off</option>
+								<option value="on">On</option>
+							</select> 
+						</span></div>
+					</div><!-- /grid-c -->
+				</li>
+				
+				
+				
+				<!-- Slider -->
+				<li>
+					<div class="ui-grid-a" style="height:50px">
+						<div class="ui-block-a">
+							<strong>A:<br>Dim Lamp</strong>
+						</div>
+						<div class="ui-block-b">
+							<span>
+								<input type="range" name="slider" id="slider-0" value="25" min="0" max="100" lavel="false" class="ui-hidden-accessible" /> 
+							</span>
+						</div>
+					</div><!-- /grid-a -->
+				</li>
+				
+				<!-- Slider -->
+				<li>
+					<div>
+						Dim Lamp:<br>
+						<input type="range" name="slider" id="slider-0" value="25" min="0" max="100"  /> 
+					</div>
+				</li>
+				
+				<li><a href="#">Row 7</a></li>
+				<li><a href="#">Row 8</a></li>
+				<li><a href="#">Row 9</a></li>
+				<li><a href="#">Row 10</a></li>
+				<li><a href="#">Row 11</a></li>
+				<li><a href="#">Row 12</a></li>
+				<li><a href="#">Row 13</a></li>
+				<li><a href="#">Row 14</a></li>
+				<li><a href="#">Row 15</a></li>
+				<li><a href="#">Row 16</a></li>
+				<li><a href="#">Row 17</a></li>
+				<li><a href="#">Row 18</a></li>
+				<li><a href="#">Row 19</a></li>
+				<li><a href="#">Row 20</a></li>
+				
+			</ul>
+        </div><!-- /content -->
+ 
+        <div data-role="footer">
+            <h6>VSCP & Friends Project - Copyright &copy; 2000-2014 <a href="http://www.paradiseofthefrog.com">Paradise of the Frog</a></h6>
+        </div><!-- /footer -->
+ 
+    </div><!-- /page -->
+</body>
+</html>
