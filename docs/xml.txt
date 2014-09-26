@@ -1,0 +1,20 @@
+
+
+<page id="main" description="ldklfkdkflkdlfk" theme="a|b|c|d|e" >
+
+<!-- Link element        -->
+<element type="link" url="http://www.xyz.com" [height="50"] />
+
+<!-- Active Text         -->
+<element type="text" left="temperature"  right="%fC" [height="50"] />
+
+<!-- Dumb-Button         -->
+<element type="dumb-button" left="temperature"  button-text="slow" [height="50"]/>
+
+<!-- Flip-Button         -->
+<element type="flip" left="Light Livingroom" [height="50"] />
+
+<!-- Slider             -->
+<element type="slider" left="Dimmer:" [height="50"] />
+
+</page>
